@@ -30,7 +30,7 @@ const Quiz = () => {
       setProgress(((currentQuestionIndex + 1) / quizQuestions.length) * 100);
     } else {
       setIsFinished(true);
-      if (score >= 1) {
+      if (score >= 2) {
         setHasWon(true);
       }
     }
